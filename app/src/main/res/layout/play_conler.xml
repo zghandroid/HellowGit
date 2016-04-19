@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="#7e000000"
+    >
+
+    <CheckBox
+        android:id="@+id/paly"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:button="@null"
+        android:drawableLeft="@drawable/player_paly"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:id="@+id/palyer_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="00:00"
+        android:gravity="center"
+        />
+    <SeekBar
+        android:id="@+id/palyer_seek"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/palyer_total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="00:00"
+        android:gravity="center"
+        />
+    <CheckBox
+        android:id="@+id/palyer_full"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:button="@null"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/player_full"
+        />
+</LinearLayout>
